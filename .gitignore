@@ -1,1 +1,60 @@
-.
+# =========================
+# R / RStudio
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# =========================
+# Archivos temporales
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Datos crudos y descargas
+# =========================
+data/raw/
+datos_crudos/
+GSE160299_RAW/
+GSE*/
+
+# =========================
+# Archivos grandes de secuenciación
+# =========================
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.vcf
+
+# =========================
+# Objetos de R
+# =========================
+*.rds
+*.RDS
+
+# =========================
+# Resultados y figuras generadas
+# =========================
+results/
+resultados/
+figures/
+figuras/
+
+# =========================
+# Archivos exportados
+# =========================
+*.xlsx
+*.xls
+*.csv
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
